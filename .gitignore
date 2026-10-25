@@ -1,0 +1,27 @@
+# Compiled classes and build output
+*.class
+bin/
+target/
+build/
+out/
+WEB-INF/classes/
+
+# Secrets / local config (never commit credentials)
+.env
+*.env
+*.properties.local
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Uploaded documents (created at runtime)
+uploads/
+
+# IDE / OS files
+.metadata/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
